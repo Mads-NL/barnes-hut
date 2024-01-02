@@ -1,7 +1,7 @@
 # Barnes-Hut Simulation Repository
 
 ## Overview
-This repository contains an implementation of the Barnes-Hut algorithm in Fortran. The Barnes-Hut algorithm is a tree-based method to approximate the forces in an N-body simulation, ideal for simulating systems with a large number of particles, like stars in a galaxy.
+This repository contains an implementation of the Barnes-Hut algorithm in Fortran. The Barnes-Hut algorithm is a tree-based method to approximate the forces in an N-body simulation, ideal for simulating systems with a large number of particles, like stars in a galaxy. The next step is to implement SPH for a realistic simulation of a galaxy.
 
 ## Files Description
 - **barnes_lf.f95**: Implements the `calculate_forces` subroutine for calculating forces acting on each body using the tree structure.
